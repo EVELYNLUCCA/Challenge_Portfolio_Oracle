@@ -1,0 +1,21 @@
+:root {
+    --rojo-titulo: #da2b1f;
+    --gris-contenido: #595959;
+    --gris-claro-contenido: #8C8888;
+
+    --fuente-titulo: Pacifico, cursive;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
