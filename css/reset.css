@@ -1,0 +1,26 @@
+:root {
+    --color1: #05bffb ;
+    --color2: #f5839c ;
+    --color3:  #084b7d ;
+    --color4:  #5f7aa3 ;
+    --color5:  #CFACFD ;
+    --color6: #011753;
+    --color7: #b77cb9;
+    --color8: #e7daf7;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--color3);
+    background-color: var(--color8);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}

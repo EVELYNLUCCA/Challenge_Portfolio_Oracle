@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- LINK FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/head.css">
+    ,<link rel="stylesheet" href="./css/sobreMi.css">
+    
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     
     <title>PORTAFOLIO</title>
 </head>
@@ -18,32 +24,41 @@
         <nav class="head__nav">
             <ul class="lista">
                 <li class="lista__item"><a href="#" class="lista__link">Sobre mi</a></li>
-                <li class="lista__item"><a href="#" class="lista__link">Hobbies y Soft Skills</a></li>
+                <li class="lista__item"><a href="#" class="lista__link">Hobbies</a></li>
+                <li class="lista__item"><a href="#" class="lista__link">Soft Skills</a></li>
                 <li class="lista__item"><a href="#" class="lista__link">Formacion</a></li>
                 <li class="lista__item"><a href="#" class="lista__link">Experiencia</a></li>
                 <li class="lista__item"><a href="#" class="lista__link">Contacto</a></li>
             </ul>
         </nav>
-        <img class="head__boton head__boton--pdf">
-        <img class="head__boton head__boton--tema">
+        <div class="head__iconos">
+            <svg  class="head__icono head__icono--pdf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 464H96v48H64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H229.5c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3V288H336V160H256c-17.7 0-32-14.3-32-32V48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16zm96-112h24c30.9 0 56 25.1 56 56s-25.1 56-56 56h-8v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V448 368c0-8.8 7.2-16 16-16zm24 80c13.3 0 24-10.7 24-24s-10.7-24-24-24h-8v48h8zm72-64c0-8.8 7.2-16 16-16h24c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H272c-8.8 0-16-7.2-16-16V368zm32 112h8c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16h-8v96zm96-128h48c8.8 0 16 7.2 16 16s-7.2 16-16 16H400v32h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H400v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V432 368c0-8.8 7.2-16 16-16z"/></svg>
+            <svg  class="head__icono head__icono--tema" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M339.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L568.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S517.7-4.4 499.1 9.6L262.4 187.2c-24 18-38.2 46.1-38.4 76.1L339.3 367.1zm-19.6 25.4l-116-104.4C143.9 290.3 96 339.6 96 400c0 3.9 .2 7.8 .6 11.6C98.4 429.1 86.4 448 68.8 448H64c-17.7 0-32 14.3-32 32s14.3 32 32 32H208c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg>
+        </div>
     </header>
 
     <main>
         <section class="sobreMi">
-            <div class="sobreMi__banner">
-                <img src="" alt="" class="sobreMi__foto">
-                <h2 class="sobreMi__nombre"></h2>
-                <h3 class="sobreMi__nacionalidad"></h3>
-                <h3 class="sobreMi__edad"></h3>
-                <div class="sobreMi__redes">
-                    <a href="#"><img src="" alt="" class="redes__icono redes__icono--github"></a>
-                    <a href="#"><img src="" alt="" class="redes__icono redes__icono--facebook"></a>
-                    <a href="#"><img src="" alt="" class="redes__icono redes__icono--instagram"></a>
+            <div class="sobreMi__container">
+                <div class="sobreMi__banner">
                 </div>
+                <div class="sobreMi__informacion">
+                    <img src="./img/Foto-Eve-Perfil.jpg" alt="" class="sobreMi__foto">
+                    <h2 class="sobreMi__nombre">Evelyn Lucca</h2>
+                    <h3 class="sobreMi__nacionalidad">Argentina</h3>
+                    <h3 class="sobreMi__edad"></h3>
+            
+                    <div class="sobreMi__redes">
+                        <a href="#"><img src="" alt="" class="redes__icono redes__icono--github"></a>
+                        <a href="#"><img src="" alt="" class="redes__icono redes__icono--facebook"></a>
+                        <a href="#"><img src="" alt="" class="redes__icono redes__icono--instagram"></a>
+                    </div>
+                </div>
+            </div>
                 <div class="sobreMi__biografia">
                     <p class="biografia__descripcion"></p>
                 </div>
-            </div>
+            
         </section>
 
         <div class="folder__conteiner">
@@ -138,3 +153,4 @@
     <!-- LINK SCRIPTS -->
 
 </html>
+

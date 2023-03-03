@@ -1,0 +1,45 @@
+.head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: var(--color5);
+}
+
+.head__titulo {
+    margin-left: 1rem;
+    color: var(--color3);
+}
+
+.head__nav {
+    width: 50%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.lista__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.lista__link:hover {
+    color: var(--color7)
+}
+
+.head__iconos {
+    display: flex;
+}
+
+.head__icono {
+width: 2rem;
+height: 2rem;
+margin-right: 1rem;
+}

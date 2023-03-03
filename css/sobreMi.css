@@ -1,0 +1,37 @@
+.sobreMi {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color6);
+    width: 100vw;
+    height: 70Vh;
+}
+
+.sobreMi__container {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+}
+
+
+.sobreMi__banner {
+    width: 70%;
+    height: 70Vh;
+    background: url("../img/52714.jpg") no-repeat center / cover;
+}
+.sobreMi__informacion {
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: var(--color7);
+    justify-content: center;
+}
+
+.sobreMi__foto {
+    width: 14vw;
+    height: 30vh;
+    border-radius: 100%;
+    border: 2px solid var(--color7);
+}
